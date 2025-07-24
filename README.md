@@ -40,12 +40,13 @@ Arguments:
 | `--date_col` | Optional date column (only affects plot) | `None` |
 | `--adstock` | λ carry-over parameter (0 ≤ λ < 1); if omitted, raw spend is used | `None` |
 | `--output` | Output JSON for fitted parameters + metrics | `params.json` |
-| `--plot` | Optional PNG path for fitted curve plot | `None` |
+| `--group_cols` | Comma-separated column names to fit separate curves per group (e.g., `campaign,ad_group`) | `None` |
+| `--plot` | File or directory path for plots. If grouping is used and a directory is given, one plot per group is saved there. | `None` |
 
 ## Outputs
 
-* **`params.json`** — Fitted parameters (`alpha`, `beta`, `gamma`) and derived metric `spend_half_saturation`.
-* **`curve.png`** — Diagnostic plot (optional).
+* **`params.json`** — Fitted parameters (`alpha`, `beta`, `gamma`) plus derived metric `spend_half_saturation` (or a nested object keyed by group for `--group_cols`).
+* **`curve.png`** or **`plots/curve_<group>.png`** — Diagnostic plot(s) of spend vs. response with fitted curve.
 
 ## Model details
 
@@ -60,12 +61,12 @@ Optional **ad-stock** transformation models carry-over effects:
 
 \[ s_t = x_t + \lambda s_{t-1} \quad (0 \le \lambda < 1) \]
 
-The script estimates parameters via non-linear least squares (`scipy.optimize.curve_fit`).
+Parameters are estimated by non-linear least squares (`scipy.optimize.curve_fit`).
 
 ## Extending
 
-* Swap in a Bayesian estimation routine (e.g. PyMC) for credible intervals.
+* Replace the estimator with a Bayesian implementation (e.g. PyMC) for credible intervals and partial pooling across groups.
 * Fit multiple channels simultaneously by extending the model function.
-* Add seasonality or control variables with regression.
+* Add seasonality or control variables with regression or state-space models.
 
 Pull requests welcome!
