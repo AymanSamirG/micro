@@ -1,0 +1,79 @@
+SIMPLE PRICING STRATEGY TEMPLATE
+================================
+
+STEP 1: CALCULATE YOUR COSTS
+----------------------------
+Direct Materials: $______
+Direct Labor: $______
+Variable Costs: $______
+Fixed Costs: $______
+Overhead: $______
+Marketing: $______
+Shipping: $______
+TOTAL COSTS: $______ (add all above)
+
+Target Profit Margin: ____%
+MINIMUM PRICE: $______ (Total Costs × (1 + Profit Margin))
+
+STEP 2: RESEARCH COMPETITORS
+---------------------------
+Competitor 1: $______
+Competitor 2: $______
+Competitor 3: $______
+Competitor 4: $______
+Competitor 5: $______
+
+Average Competitor Price: $______
+Lowest Price: $______
+Highest Price: $______
+
+STEP 3: VALUE ANALYSIS
+---------------------
+Rate each from 1-10:
+
+Time Savings - Importance: ___ | Competitors: ___ | You: ___
+Cost Reduction - Importance: ___ | Competitors: ___ | You: ___
+Quality - Importance: ___ | Competitors: ___ | You: ___
+Convenience - Importance: ___ | Competitors: ___ | You: ___
+Status/Prestige - Importance: ___ | Competitors: ___ | You: ___
+
+STEP 4: PRICING OPTIONS
+----------------------
+Cost-Plus Price (Cost + 30%): $______
+Competitive Price (Match average): $______
+Value-Based Price (20% above average): $______
+Penetration Price (20% below average): $______
+Premium Price (10% above highest): $______
+
+STEP 5: TEST SCENARIOS
+---------------------
+Price Option | Expected Sales | Revenue | Profit
+$______ | ______ units | $______ | $______
+$______ | ______ units | $______ | $______
+$______ | ______ units | $______ | $______
+
+STEP 6: FINAL DECISION
+---------------------
+CHOSEN PRICE: $______
+
+REASONING:
+_________________________________________________
+_________________________________________________
+_________________________________________________
+
+STEP 7: IMPLEMENTATION
+---------------------
+□ Calculate accurate costs
+□ Research competitor pricing
+□ Test with customers
+□ Prepare sales materials
+□ Train team
+□ Launch pricing
+□ Monitor results
+
+STEP 8: MONTHLY REVIEW
+---------------------
+Conversion Rate: Target ___% | Actual ___%
+Profit Margin: Target ___% | Actual ___%
+Customer Feedback: ________________________
+Needed Adjustments: _______________________
