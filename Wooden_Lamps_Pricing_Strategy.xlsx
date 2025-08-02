@@ -1,0 +1,302 @@
+Sheet1: Cost Calculator
+
+WOODEN DECOR LAMPS - COST CALCULATOR
+=====================================
+
+PRODUCT INFORMATION
+-------------------
+Product Name: [Enter Product Name]
+Product Code: [Enter Code]
+Date Created: [Today's Date]
+
+MATERIAL COSTS (AED)
+-------------------
+Description                    Quantity    Unit Cost    Total Cost
+Wood (Type: _________)         _______     _______      =B*C
+Electrical Components          _______     _______      =B*C
+Hardware (screws, fittings)    _______     _______      =B*C
+Finishing Materials            _______     _______      =B*C
+Packaging Materials            _______     _______      =B*C
+Other Materials               _______     _______      =B*C
+                                                       ----------
+TOTAL MATERIAL COST:                                   =SUM(D6:D11)
+
+LABOR COSTS (AED)
+----------------
+Process                       Hours       Rate/Hour    Total Cost
+Design & Planning             _______     _______      =B*C
+Wood Cutting & Shaping        _______     _______      =B*C
+Assembly                      _______     _______      =B*C
+Electrical Work               _______     _______      =B*C
+Finishing & Sanding           _______     _______      =B*C
+Quality Control               _______     _______      =B*C
+Packaging                     _______     _______      =B*C
+                                                       ----------
+TOTAL LABOR COST:                                      =SUM(D15:D21)
+
+OVERHEAD COSTS (AED)
+-------------------
+Description                   Monthly      Allocation%   Per Unit
+Workspace Rent               _______      _______       =B*C/Units per month
+Utilities                    _______      _______       =B*C/Units per month
+Tools & Equipment            _______      _______       =B*C/Units per month
+Insurance                    _______      _______       =B*C/Units per month
+Marketing                    _______      _______       =B*C/Units per month
+Administrative               _______      _______       =B*C/Units per month
+                                                        ----------
+TOTAL OVERHEAD COST:                                    =SUM(D26:D31)
+
+COST SUMMARY
+------------
+Total Material Cost:         =D12
+Total Labor Cost:           =D22
+Total Overhead Cost:        =D32
+                            --------
+TOTAL COST PER UNIT:        =D38*D35+D36+D37
+
+PRICING SCENARIOS
+-----------------
+                    Markup%    Selling Price    Gross Profit    Profit Margin%
+Conservative        200%       =D38*3          =E39-D38        =F39/E39
+Standard           250%       =D38*3.5        =E40-D38        =F40/E40
+Premium            300%       =D38*4          =E41-D38        =F41/E41
+Luxury             400%       =D38*5          =E42-D38        =F42/E42
+
+VOLUME DISCOUNT ANALYSIS
+-----------------------
+Quantity Tiers     Discount%   Price per Unit   Total Revenue
+1-4 units         0%          =E40            =B*C
+5-10 units        10%         =E40*0.9        =B*C
+11-25 units       15%         =E40*0.85       =B*C
+25+ units         20%         =E40*0.8        =B*C
+
+===========================================================================
+
+Sheet2: Market Analysis
+
+MARKET ANALYSIS & COMPETITIVE BENCHMARKING
+==========================================
+
+ADJACENT CATEGORY PRICING RESEARCH (AED)
+----------------------------------------
+Category                    Low End     Mid Range    High End     Notes
+Table Lamps (Retail)       _______     _______      _______      [Brand/Store]
+Designer Lighting          _______     _______      _______      [Brand/Store]
+Custom Furniture           _______     _______      _______      [Per hour/piece]
+Art Pieces                 _______     _______      _______      [Similar size]
+Hotel Lighting Fixtures    _______     _______      _______      [Industry rate]
+Handcrafted Decor         _______     _______      _______      [Local artisans]
+
+CUSTOMER SEGMENT ANALYSIS
+------------------------
+Segment               Budget Range    Volume Potential    Margin Potential    Priority
+Hotels (Boutique)     _______        _______            _______             High/Med/Low
+Hotels (Luxury)       _______        _______            _______             High/Med/Low
+Restaurants           _______        _______            _______             High/Med/Low
+Corporate Offices     _______        _______            _______             High/Med/Low
+Interior Designers    _______        _______            _______             High/Med/Low
+Retail Stores         _______        _______            _______             High/Med/Low
+Co-working Spaces     _______        _______            _______             High/Med/Low
+
+DUBAI MARKET CHARACTERISTICS
+---------------------------
+Factor                          Impact on Pricing                 Strategy
+Tourism Season (Oct-Apr)        Higher willingness to pay        +15-20% seasonal premium
+Ramadan Period                  Lower activity                   -10% discount consideration
+UAE National Day                Increased local preference       Premium for "Made in UAE"
+Summer Period (Jun-Aug)         Reduced activity                 Focus on planning/prep
+Business Culture                Relationship-based               Invest in relationship building
+
+PRICE SENSITIVITY ANALYSIS
+--------------------------
+Customer Type          Price Sensitivity    Decision Factors           Recommended Approach
+Luxury Hotels          Low                  Uniqueness, Brand          Premium pricing
+Budget Hotels          High                 Cost, Functionality        Volume discounts
+Restaurants            Medium               ROI, Ambiance impact       Value-based pricing
+Corporate              Medium               Budget approval process    Package deals
+Designers              Low-Medium           Client budget, margins     Trade discounts
+
+VALUE PROPOSITION MAPPING
+------------------------
+Value Driver              Customer Benefit              Price Justification
+Handcrafted Quality       Unique ambiance              +30-50% vs mass market
+Local Artisan Story       Authentic Dubai experience   +20-30% premium
+Customization            Perfect fit for space        +50-100% custom fee
+Sustainable Materials     ESG compliance               +15-25% eco premium
+Energy Efficiency         Lower operating costs        ROI-based pricing
+
+MARKET ENTRY STRATEGY
+--------------------
+Phase          Duration    Target Customers         Pricing Strategy              Success Metrics
+Launch         Month 1-3   Boutique hotels/cafes    20% below target pricing     5 customers, testimonials
+Growth         Month 4-6   Larger venues            Standard pricing             15 customers, referrals
+Expansion      Month 7-12  Corporate/designers      Premium + custom options     30+ customers, profitability
+
+PRICING VALIDATION CHECKLIST
+----------------------------
+☐ Cost calculation verified for 3 product variants
+☐ 10+ customer interviews completed
+☐ Adjacent category pricing researched
+☐ Value proposition tested with customers
+☐ Initial quotes generated and feedback received
+☐ Profit margins meet business objectives
+☐ Pricing strategy documented and shared
+
+===========================================================================
+
+Sheet3: Quote Generator
+
+PROFESSIONAL QUOTE GENERATOR
+============================
+
+CUSTOMER INFORMATION
+-------------------
+Customer Name:          [Enter Customer Name]
+Company:               [Enter Company Name]
+Contact Person:        [Enter Contact]
+Phone:                 [Enter Phone]
+Email:                 [Enter Email]
+Project Location:      [Enter Location]
+Quote Date:            [Today's Date]
+Quote Valid Until:    [Date + 30 days]
+Quote Number:          [Auto-generate: QL-YYYY-MM-001]
+
+PROJECT DETAILS
+---------------
+Project Name:          [Enter Project Name]
+Installation Date:     [Enter Date]
+Special Requirements:  [Enter Requirements]
+Design Consultation:   Yes/No
+
+PRODUCT SELECTION
+-----------------
+Item  Description           Qty   Unit Price   Customization   Custom Fee   Line Total
+1     [Product Name]        __    =CostCalc    [Yes/No]       =If(Custom)  =Qty*Price+Fee
+2     [Product Name]        __    =CostCalc    [Yes/No]       =If(Custom)  =Qty*Price+Fee
+3     [Product Name]        __    =CostCalc    [Yes/No]       =If(Custom)  =Qty*Price+Fee
+4     [Product Name]        __    =CostCalc    [Yes/No]       =If(Custom)  =Qty*Price+Fee
+5     [Product Name]        __    =CostCalc    [Yes/No]       =If(Custom)  =Qty*Price+Fee
+
+VOLUME DISCOUNT CALCULATION
+--------------------------
+Total Quantity:        =SUM(Qty column)
+Discount Tier:         =IF(Total<5,"0%",IF(Total<11,"10%",IF(Total<25,"15%","20%")))
+Discount Amount:       =Subtotal * Discount%
+Net Amount:           =Subtotal - Discount
+
+PRICING SUMMARY
+---------------
+Subtotal:             =SUM(Line Totals)
+Volume Discount:      =(Discount Amount)
+Design Consultation:  =IF(Design="Yes",500,0)
+Delivery Fee:         =IF(Subtotal>2000,0,100)
+                     ----------
+NET TOTAL:            =Subtotal-Discount+Consultation+Delivery
+VAT (5%):            =Net Total * 0.05
+GRAND TOTAL:         =Net Total + VAT
+
+PAYMENT TERMS
+-------------
+Payment Method:       Bank Transfer / Cash / Cheque
+Payment Schedule:     
+- 50% Deposit on order confirmation
+- 50% Balance on delivery
+Payment Terms:        Net 30 days from delivery
+Bank Details:         [Your bank details]
+
+DELIVERY & INSTALLATION
+----------------------
+Production Time:      [X] weeks from deposit
+Delivery Time:        [X] days from completion
+Installation:         Included / Additional AED [X]
+Warranty:            12 months manufacturing defects
+
+TERMS & CONDITIONS
+-----------------
+1. Prices valid for 30 days from quote date
+2. Custom orders require 50% deposit
+3. Production begins after deposit confirmation
+4. Delivery schedule subject to production completion
+5. Installation available at additional cost
+6. All prices include VAT as applicable
+
+QUOTE APPROVAL
+--------------
+Customer Signature:   _________________    Date: _______
+Print Name:          _________________
+Position:            _________________
+
+For [Your Company]:   _________________    Date: _______
+Authorized Signature
+
+===========================================================================
+
+Sheet4: Sales Tracking
+
+SALES TRACKING & ANALYSIS
+=========================
+
+QUOTE TRACKING LOG
+------------------
+Quote#  Date    Customer        Total Value  Status      Conversion  Notes
+QL-001  [Date]  [Customer]      [Amount]    Pending     [Yes/No]    [Notes]
+QL-002  [Date]  [Customer]      [Amount]    Approved    [Yes/No]    [Notes]
+QL-003  [Date]  [Customer]      [Amount]    Rejected    [Yes/No]    [Notes]
+
+MONTHLY SALES SUMMARY
+--------------------
+Month         Quotes Sent  Quotes Won  Conversion%  Total Revenue  Avg Order
+January       ___          ___         =B/A*100     ___           =E/B
+February      ___          ___         =B/A*100     ___           =E/B
+March         ___          ___         =B/A*100     ___           =E/B
+April         ___          ___         =B/A*100     ___           =E/B
+May           ___          ___         =B/A*100     ___           =E/B
+June          ___          ___         =B/A*100     ___           =E/B
+
+CUSTOMER ANALYSIS
+-----------------
+Customer Type     Orders    Total Value   Avg Order   Repeat Rate
+Hotels           ___       ___           =B/A        ___%
+Restaurants      ___       ___           =B/A        ___%
+Corporate        ___       ___           =B/A        ___%
+Retail           ___       ___           =B/A        ___%
+Designers        ___       ___           =B/A        ___%
+
+PRODUCT PERFORMANCE
+------------------
+Product           Units Sold  Revenue    Margin%    Popularity
+Small Lamps       ___        ___        ___%       ___%
+Medium Lamps      ___        ___        ___%       ___%
+Large Lamps       ___        ___        ___%       ___%
+Custom Orders     ___        ___        ___%       ___%
+
+PRICING EFFECTIVENESS ANALYSIS
+------------------------------
+Metric                    Target      Actual      Status
+Average Selling Price     AED ___     AED ___     On Track/Below/Above
+Gross Margin %           ___%        ___%        On Track/Below/Above
+Conversion Rate          ___%        ___%        On Track/Below/Above
+Customer Acquisition Cost AED ___     AED ___     On Track/Below/Above
+
+FEEDBACK & PRICING INSIGHTS
+---------------------------
+Date       Customer    Feedback                           Action Required
+[Date]     [Name]      "Price too high"                  Review pricing for segment
+[Date]     [Name]      "Great value"                     Maintain current pricing
+[Date]     [Name]      "Need payment flexibility"        Consider payment terms
+
+MONTHLY REVIEW QUESTIONS
+-----------------------
+☐ Are we meeting margin targets?
+☐ Which customer segments are most profitable?
+☐ What price objections are we hearing?
+☐ Should we adjust pricing for any products?
+☐ Are volume discounts working effectively?
+☐ What seasonal adjustments do we need?
+
+ACTION ITEMS
+-----------
+Priority  Action                           Due Date    Owner    Status
+High      Review hotel segment pricing     [Date]      [Name]   Pending
+Medium    Create payment plan options      [Date]      [Name]   Pending
+Low       Update quote template            [Date]      [Name]   Pending
