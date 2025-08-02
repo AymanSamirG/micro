@@ -1,0 +1,131 @@
+PRICING STRATEGY TEMPLATE
+=========================
+
+SECTION 1: COST ANALYSIS
+-------------------------
+Cost Category,Description,Amount (USD),Notes
+Direct Materials,Raw materials/inventory costs,,
+Direct Labor,Direct production/service labor,,
+Variable Costs,Costs that change with volume,,
+Fixed Costs,Rent/salaries/equipment,,
+Overhead,Utilities/admin/insurance,,
+Marketing Costs,Advertising/promotions,,
+Shipping/Fulfillment,Delivery and handling,,
+Total Costs,=SUM(C2:C8),,
+,,
+Target Profit Margin (%),20%,Adjust as needed
+Minimum Price Floor,=C9*(1+C11),,
+
+SECTION 2: COMPETITOR ANALYSIS
+------------------------------
+Competitor Name,Product/Service,Price,Pricing Model,Value Proposition,Market Position
+Competitor 1,,,Cost-plus/Value/Competitive,,Budget/Mid/Premium
+Competitor 2,,,,,
+Competitor 3,,,,,
+Competitor 4,,,,,
+Competitor 5,,,,,
+,,,,
+Average Competitor Price,=AVERAGE(C17:C21),,,,
+Price Range Low,=MIN(C17:C21),,,,
+Price Range High,=MAX(C17:C21),,,,
+
+SECTION 3: CUSTOMER VALUE ANALYSIS
+----------------------------------
+Value Driver,Customer Benefit,Importance (1-10),Competitor Score (1-10),Your Score (1-10),Value Gap
+Time Savings,Reduces time spent,,,,"=E28-D28"
+Cost Reduction,Saves money,,,,"=E29-D29"
+Quality Improvement,Better results,,,,"=E30-D30"
+Convenience,Easier to use,,,,"=E31-D31"
+Status/Prestige,Enhances image,,,,"=E32-D32"
+Custom Feature 1,Your unique benefit,,,,"=E33-D33"
+Custom Feature 2,Your unique benefit,,,,"=E34-D34"
+,,,,
+Weighted Value Score,=SUMPRODUCT(C28:C34,E28:E34)/SUM(C28:C34),,,,
+
+SECTION 4: PRICING MODEL COMPARISON
+-----------------------------------
+Pricing Model,Description,Pros,Cons,Recommended Price,Profit Margin
+Cost-Plus,Cost + markup %,Simple to calculate,Ignores market value,"=C12*1.3",30%
+Competitive,Match competitor prices,Market accepted,May undervalue,"=C23","=(C41-C9)/C41"
+Value-Based,Price on customer value,Captures full value,Hard to quantify,"=C23*1.2","=(C42-C9)/C42"
+Penetration,Low price for market share,Builds customer base,Lower margins,"=C23*0.8","=(C43-C9)/C43"
+Premium,Higher than competitors,Higher margins,Smaller market,"=C24*1.1","=(C44-C9)/C44"
+
+SECTION 5: PRICE TESTING SCENARIOS
+----------------------------------
+Test Price,Expected Volume,Revenue,Total Costs,Profit,Profit Margin,ROI
+"=C42*0.8",120,"=B47*A47","=C9*B47","=C47-D47","=E47/C47","=E47/D47"
+"=C42*0.9",100,"=B48*A48","=C9*B48","=C48-D48","=E48/C48","=E48/D48"
+"=C42",85,"=B49*A49","=C9*B49","=C49-D49","=E49/C49","=E49/D49"
+"=C42*1.1",70,"=B50*A50","=C9*B50","=C50-D50","=E50/C50","=E50/D50"
+"=C42*1.2",55,"=B51*A51","=C9*B51","=C51-D51","=E51/C51","=E51/D51"
+
+SECTION 6: FINAL PRICING DECISION
+---------------------------------
+Pricing Factor,Weight (%),Score (1-10),Weighted Score
+Market Acceptance,25%,,"=B55*C55"
+Profit Potential,30%,,"=B56*C56"
+Competitive Position,20%,,"=B57*C57"
+Strategic Goals,15%,,"=B58*C58"
+Risk Level,10%,,"=B59*C59"
+,,
+Total Weighted Score,=SUM(D55:D59),,
+,,
+RECOMMENDED PRICE,Enter your final price here,,
+RATIONALE,Explain your pricing decision,,
+
+SECTION 7: IMPLEMENTATION CHECKLIST
+-----------------------------------
+Task,Responsible,Deadline,Status,Notes
+Calculate accurate costs,,,Not Started,
+Research competitor pricing,,,Not Started,
+Survey customer price sensitivity,,,Not Started,
+Test pricing with focus group,,,Not Started,
+Prepare value communication,,,Not Started,
+Train sales team,,,Not Started,
+Set up pricing monitoring,,,Not Started,
+Launch pricing strategy,,,Not Started,
+Schedule first review,,,Not Started,
+
+SECTION 8: MONITORING METRICS
+-----------------------------
+Metric,Target,Current,Variance,Action Needed
+Conversion Rate,5%,,"=C75-B75",
+Average Order Value,$500,,"=C76-B76",
+Profit Margin,25%,,"=C77-B77",
+Customer Acquisition Cost,$50,,"=C78-B78",
+Customer Lifetime Value,$1500,,"=C79-B79",
+Price Complaints (per 100 sales),<2,,"=C80-B80",
+
+SECTION 9: QUARTERLY REVIEW TEMPLATE
+------------------------------------
+Review Date,,,
+Quarter,,,
+,,
+Key Findings,Action Items,Owner,Due Date
+Price performance vs target,,,
+Competitor pricing changes,,,
+Customer feedback summary,,,
+Cost changes impact,,,
+Market condition updates,,,
+Recommended price adjustments,,,
+
+INSTRUCTIONS FOR USE:
+====================
+1. Save this file as Excel format (.xlsx)
+2. Fill in your actual costs in Section 1
+3. Research and input competitor data in Section 2
+4. Score your value proposition vs competitors in Section 3
+5. Compare different pricing models in Section 4
+6. Test different price scenarios in Section 5
+7. Use Section 6 to make final pricing decision
+8. Follow implementation checklist in Section 7
+9. Track metrics regularly in Section 8
+10. Conduct quarterly reviews using Section 9
+
+TIPS:
+- Update competitor prices monthly
+- Review costs quarterly
+- Test price changes with small groups first
+- Always communicate value when changing prices
+- Keep track of customer feedback on pricing
